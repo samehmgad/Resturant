@@ -1,0 +1,110 @@
+body {
+  /* background-color: rgba(164, 21, 21, 0.774); */
+  padding: 0;
+  margin: 0;
+}
+#top{
+    text-align: center;
+    position: fixed;
+    font-size: 30px;
+    width: 40px;
+    color: goldenrod;
+    z-index: 1000;
+    bottom: 60px;
+    right: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.486);
+    cursor: pointer;
+    /* display: none; */
+}
+.sam h1 {
+  width: 450px;
+  text-align: left;
+  font-family: nova square;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
+}
+.sam p {
+  text-align: left;
+  font-family: nova square;
+  font-size: 15px;
+  font-weight: bold;
+  width: 450px;
+  color: azure(248, 245, 245);
+
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sam {
+  position: absolute;
+  top: 30%;
+}
+
+.about {
+  width: 100%;
+  min-height: 450px;
+  /* margin-top: 20px; */
+  background-color: black;
+}
+.about h1 {
+  text-align: center;
+  font-family: nova square;
+  color: goldenrod;
+  padding-top: 70px;
+  text-decoration: underline grey 2px;
+}
+
+.about p {
+  max-width: 600px;
+  text-align: center;
+  font-family: nova square;
+  color: grey;
+  padding-top: 50px;
+  margin: auto;
+  font-size: 25px;
+}
+
+.menu {
+  background-color: rgb(46, 46, 46);
+}
+
+.menu h1 {
+  text-align: center;
+  font-family: nova square;
+  color: goldenrod;
+  padding-top: 70px;
+  text-decoration: underline rgb(66, 66, 66) 2px;
+}
+
+.menu .card {
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(220, 154, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu .card img {
+  height: 60%;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.buttons button {
+  max-width: 100px;
+}
+
+.card h5 {
+  color: aliceblue;
+}
+
+.card p {
+  color: antiquewhite;
+}
+
+footer {
+  background-color: black;
+}
